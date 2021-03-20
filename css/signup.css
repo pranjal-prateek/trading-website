@@ -1,0 +1,81 @@
+#button
+  {
+    background-color:#022f73;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration:none ;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 3px 3px rgb(65, 70, 116);  
+  }
+  #button:hover {background-color:#02132e }
+
+#button:active {
+  background-color: #13064d;
+  box-shadow: 0 5px rgb(83, 81, 81);
+  transform: translateY(10px);
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #396881;
+}
+.red
+{
+    color: red;
+}
+.box1
+{
+height:900px;
+width: 600px;
+padding: 40px;
+position: absolute;
+background: white;
+text-align: center;
+margin-top: 100px;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.box1 input[type="email"],.box1 input[type="password"],.box1 input[type="text"],.box1 input[type="date"],.box1 input[type="tel"]
+{
+border:0;
+background: none;
+display:block;
+margin:auto;
+text-align: center;
+border:2px solid;
+padding:10px 5px;
+width: 200px;
+outline: none;
+color: black;
+border-radius: 24px;
+transition: 0.25s;
+}
+.box1 label
+  {
+    margin-left: 10px;
+    color:#022f73;
+    font-size: 60px;
+    line-height:80px;
+    font-weight: bolder;
+  }
+  .box2
+  {
+      margin-top: 1000px;
+      text-align: center;
+  }
+  .box2 a
+  {
+      color: grey;
+  }
+  .box2 a:hover
+  {
+      color: black;
+  }

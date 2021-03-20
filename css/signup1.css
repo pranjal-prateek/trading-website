@@ -1,0 +1,43 @@
+body
+{
+    background-color: #396881;
+}
+#logo
+{
+    position: relative;
+height: 100px;
+width: 300px;
+margin-top: -200px;
+}
+#wave
+{
+    position: relative;
+    height:400px;
+    width: 900px;
+    z-index: -1;
+    
+    
+}
+#picture
+{    position: relative;
+    height: 300px;
+    margin-top: 200px;
+    
+
+}
+#starthere
+{
+    height: 120px;
+}
+.block
+{
+    display: block;
+    height: 700px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:greenyellow;
+    align-items: center;
+    justify-content: center;
+}
